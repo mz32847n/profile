@@ -1,0 +1,307 @@
+nav {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+li {
+    font-family: 'Herculanum';
+}
+
+.home_center {
+    width: 100%;
+    max-width: 1329px;
+    margin: 0 auto;
+
+}
+
+.home-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Herculanum';
+    font-weight: 100;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Herculanum';
+    font-weight: 80;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Herculanum';
+    font-weight: 80;
+    font-size: 20px;
+}
+
+label {
+    font-family: 'Herculanum';
+}
+
+button {
+    font-family: 'Herculanum';
+}
+
+legend {
+    font-family: 'Herculanum';
+}
+
+textarea {
+    font-family: 'Herculanum';
+}
+
+.home-h2-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.home-h2-left, .home-h2-right {
+    width: 25%;
+    text-align: center;
+}
+
+.home-h2-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+
+.home-pampas {
+    width: 580px;
+    height: 580px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    display: block;
+}
+
+.newsletter-image-left {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: left;
+    overflow: hidden;
+    display: block;
+}
+
+.newsletter-image-right {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: right;
+    overflow: hidden;
+    display: block;
+    transform: scaleX(-1);
+}
+
+.newsletter-center-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#newsletter-h2 {
+    align-self: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.personal {
+    display: grid;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#name {
+    margin: 5px;
+}
+
+#email {
+    margin: 5px;
+}
+
+#phone {
+    margin: 5px;
+}
+
+.contact {
+    display: grid;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#contact-info {
+    justify-self: center;
+}
+
+.selection {
+    display: flex;
+    gap: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.textarea {
+    display: grid;
+}
+
+label[for="recommend"] {
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    display: flex;
+    justify-self: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.newsletter-center-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    color: rgb(93, 90, 90);
+}
+
+.navigation {
+    background-color: whitesmoke;
+    height: 80px;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.navigation ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 200px;
+    height: 40px;
+    align-items: center;
+}
+
+.sites-center {
+    display: grid;
+    justify-content: center;
+}
+
+.sites-center ol {
+    list-style-type: none;
+    display: grid;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.sites-center li {
+    font-size: 24px;;
+    justify-content: center;
+    display: grid;
+}
+
+.products-center {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.female-shirt {
+    height: 300px;
+    width: 300px;
+}
+
+.aopoi-shirt {
+    height: 300px;
+    width: 300px;
+}
+
+.hamaca {
+    height: 300px;
+    width: 300px;
+}
+
+.shawl {
+    height: 300px;
+    width: 300px;
+}
+
+.blanket {
+    height: 300px;
+    width: 300px;
+}
+
+.male-shirt {
+    height: 300px;
+    width: 300px;
+}
+
+.products-center {
+    display: grid;
+
+}
+
+.flag {
+    height: 100px;
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.foot_links {
+    background-color: whitesmoke;
+    height: 80px;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot_links_ol {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foot_links_ol ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 180px;
+}
+
+.coa {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 5%;
+}

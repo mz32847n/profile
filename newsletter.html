@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="pampas.css">
+    <meta charset="utf-8">
+    <title>🦊 PAMPAS 🦊 </title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ol>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="sites.html">Sites</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ol>
+        <img class="flag" src="Paraguayan Flag .png" alt="flag">
+    </nav>
+
+    <div class="newsletter-center">
+        <div class="newsletter-center-top">
+            <img class="newsletter-image-left" src="Pampas Tribal.jpg" alt="Left Pampas">
+            <h2 id="newsletter-h2">Subscribe to our Newsletter to stay up to date on supplies & Sales!</h2>
+            <img class="newsletter-image-right" src="Pampas Tribal.jpg" alt="Right Pampas">
+        </div>
+
+        <form action="subscription/url" method="post" class="form">
+            <fieldset class="fieldset">
+                <legend>Subscribe</legend>
+
+                <div class="personal">
+                    <div id="info">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div id="info">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <div id="info">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="telephone">
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <label for="preferance">Preferred method of contact:</label>
+                    <div class="selection">
+                        <div id="contact-info">
+                            <input type="radio" id="preferance" name="email"/>
+                            <label>Email</label>
+                        </div>
+
+                        <div id="contact-info">
+                            <input type="radio" id="preferance" name="contact"/>
+                            <label>Phone</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="textarea">
+                    <label for="recommend">Let us know what you would like to see from Pampas!</label>
+                    <textarea id="recommend" name="recommend"></textarea>
+                </div>
+
+                <div class="button">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="newsletter-center-bottom">
+            <h3>Unsubscribe at anytime</h3>
+        </div>
+    </div>
+
+    <nav class="foot_links">
+        <img class="coa" src="Coat_of_arms_of_Paraguay.svg.png" alt="coat of arms">
+        <div class="foot_links_ol">
+            <ol>
+                <li><a href="#">Pampas</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ol>
+        </div>
+    </nav>
+</body>
